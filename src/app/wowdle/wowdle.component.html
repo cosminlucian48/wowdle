@@ -1,0 +1,17 @@
+<div class="container">
+    <div class="title">
+        WOWDLE
+    </div>
+    
+    <div class="main">
+        <div class="try-container" *ngFor="let try of tries">
+            <div class="letter-container" *ngFor="let letter of try.letters">
+                {{letter.text}}
+            </div>
+        </div>
+    </div>
+
+    <div class="keyboard-container">
+        keyboard-container
+    </div>
+</div>
